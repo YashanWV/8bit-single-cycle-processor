@@ -1,0 +1,16 @@
+loadi 1 0x05
+loadi 2 0x05
+beq 0x02 1 2
+sub 3 2 1
+add 4 1 2
+j 0x02
+add 5 1 2
+sub 5 4 1
+loadi 3 0x06
+loadi 6 0x08
+loadi 7 0x09
+loadi 6 0x0A
+loadi 7 0x0B
+
+
+

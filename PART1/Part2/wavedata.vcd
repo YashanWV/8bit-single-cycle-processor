@@ -1,0 +1,122 @@
+$date
+	Wed May 10 04:03:31 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module my_reg $end
+$var wire 1 ! CLK $end
+$var wire 8 " IN [7:0] $end
+$var wire 3 # INADDRESS [2:0] $end
+$var wire 8 $ OUT1 [7:0] $end
+$var wire 3 % OUT1ADDRESS [2:0] $end
+$var wire 8 & OUT2 [7:0] $end
+$var wire 3 ' OUT2ADDRESS [2:0] $end
+$var wire 1 ( RESET $end
+$var wire 1 ) WRITE $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+1)
+0(
+b11 '
+bx &
+b0 %
+bx $
+b0 #
+b101 "
+0!
+$end
+#2
+1!
+#4
+0!
+#5
+b101 $
+b1111 "
+b11 #
+#6
+1!
+#7
+0)
+#8
+0!
+#9
+b1111 &
+#10
+1!
+b11011 "
+b100 #
+#12
+0!
+#14
+1!
+#15
+b100 %
+#16
+0!
+#17
+bx $
+#18
+1!
+#20
+0!
+b0 '
+b11 %
+#22
+1!
+b101 &
+b1111 $
+#24
+0!
+#25
+1(
+#26
+1!
+#27
+b1000 *
+#28
+0!
+#29
+b0 $
+b0 &
+#30
+1!
+#31
+b1000 *
+#32
+0!
+#34
+1!
+#35
+b1000 *
+#36
+0!
+#38
+1!
+#39
+b1000 *
+#40
+0!
+#42
+1!
+#43
+b1000 *
+#44
+0!
+#46
+1!
+#47
+b1000 *
+#48
+0!
+#50
+1!
